@@ -33,7 +33,14 @@ starks/
 │   ├── src/
 │   │   └── lib.cairo          # Cairo implementation
 │   ├── args.json              # Program arguments
+│   ├── GUIDE.md               # Project guide for password_commitment
 │   ├── Scarb.toml             # Project manifest
+│   └── target/                # Build artifacts and proofs
+├── range_checker/             # Range validation program
+│   ├── src/
+│   │   └── lib.cairo          # Cairo executable source code
+│   ├── Scarb.toml             # Project manifest
+│   ├── guide.md               # Project guide for range_checker
 │   └── target/                # Build artifacts and proofs
 └── README.md                  # This file
 ```
