@@ -23,7 +23,13 @@ A **Zero Knowledge Proof (ZKP)** is a cryptographic protocol that allows one par
 
 ```
 starks/
-├── password_commitment/        # Password commitment program (ZKP example)
+├── even_finder/               # Even number checker example
+│   ├── src/
+│   │   └── lib.cairo          # Cairo executable source code
+│   ├── Scarb.toml             # Project manifest
+│   ├── guide.md               # Project guide for even_finder
+│   └── target/                # Build artifacts and proofs
+├── password_commitment/       # Password commitment program (ZKP example)
 │   ├── src/
 │   │   └── lib.cairo          # Cairo implementation
 │   ├── args.json              # Program arguments
@@ -53,7 +59,17 @@ starks/
 
 ## 📋 Programs Included
 
-### 1. Password Commitment Program
+### 1. even_finder
+A small Cairo executable that checks whether a given integer is even.
+
+**Key Concepts**:
+- Cairo executable entry points
+- Input validation with assertions
+- Basic project build and run flow
+
+**Location**: `./even_finder/`
+
+### 2. Password Commitment Program
 A practical implementation demonstrating how zero knowledge proofs can be used to prove knowledge of a password without revealing it.
 
 **Key Concepts**:
