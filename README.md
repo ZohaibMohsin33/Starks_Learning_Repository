@@ -145,9 +145,6 @@ If you have questions or need clarification about any of the programs or concept
 
 These programs are primarily for educational purposes. While care has been taken to implement best practices, always review code thoroughly before using it in production environments.
 
-## 📄 License
-
-[Add your preferred license here]
 
 ---
 
